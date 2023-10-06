@@ -26,8 +26,91 @@ body {
 .logo > a {
     padding-top: 12px;
     padding-bottom: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: 0%;
     background: linear-gradient(110deg, pink, blue);
     font-size: 26px;
     color: white;
+}
+
+img {
+    width: 80px;
+}
+
+#container {
+    display: flex;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    justify-content:first baseline;
+    width: 50%;
+    padding-left: 2%;
+    margin: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dumy {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    padding-right: 52%;
+}
+
+.box2 {
+    display: flex;
+    width: 50%;
+    margin: 30px;
+}
+
+.box1 > :nth-child(3) {
+    color: grey;
+    line-height: 1.7;
+    line-break: normal;
+    text-align: justify;
+    width: 80%;
+}
+
+.box1 > :nth-child(1) {
+    color: blue;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subbox {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.smallbox {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.smallbox > p {
+    color: grey;
+    line-height: 1.7;
+    line-break: normal;
+    text-align: justify;
+    width: 90%;
+}
+
+a {
+    text-decoration:dotted;
 }
