@@ -1,0 +1,32 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#tabbar {
+    display: flex;
+    justify-content: center;
+    padding-left:2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.logo > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0%;
+    background: linear-gradient(110deg, pink, blue);
+    font-size: 26px;
+    color: white;
+}
