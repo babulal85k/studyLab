@@ -20,11 +20,12 @@ body {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
+    align-items: center;
 }
 
-.logo > p {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.logo > a {
+    padding-top: 12px;
+    padding-bottom: 12px;
     margin: 0%;
     background: linear-gradient(110deg, pink, blue);
     font-size: 26px;
